@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void TableMult() {
-  int n , i;
+  int n , i ;
   printf("Entrez un nembre");
       scanf("%d", &n);
     for (i = 1 ; i <= 10; i++) {
@@ -9,6 +9,6 @@ void TableMult() {
     }
 }
 int main() {
-TableMult();
+TableMult(); 
 return 0;
 }
