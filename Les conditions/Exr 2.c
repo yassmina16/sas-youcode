@@ -12,14 +12,15 @@ void checkVoyelles(char c) {
     case 'I':
     case 'O':
     case 'U':
-    printf("est une voyelle.\n");
+    printf("voyelle\n");
   break;
   default:
-    printf("n'est pas une voyelle.\n");
+    printf("Pas une voyelle\n");
   }
 }
 
 int main() {
 checkVoyelles('a');
+checkVoyelles('B');
 return 0;
 }
