@@ -9,7 +9,7 @@ void calculerMoyenne() {
       scanf("%f", &num2);
     printf("Entrez 3ème nombre");
       scanf("%f", &num3);
-    resultat = (num1 * 2 + num2 * 3 + num3 * 5) / 10.0;
+    resultat = ((num1 * 2) +(num2 * 3) + (num3 * 5)) / 10.0;
     printf("%.2f\n", resultat);
 }
 
