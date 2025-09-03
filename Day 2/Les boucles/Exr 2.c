@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void fact() {
-  unsigned long long resultat = 1 ;
+  unsigned long long result = 1 ;
   int n , i ;
   printf("Entrez un nembre");
   scanf("%d", &n);
@@ -9,9 +9,9 @@ void fact() {
         printf("nombre négatif n'est pas définie\n");
     }
     for (i = 1; i <= n; i++) {
-      resultat = resultat * i;
+      result = result * i;
     }
-    printf("%llu\n", resultat);
+    printf("%llu\n", result);
 }
 
 int main() {
