@@ -4,13 +4,13 @@
 void calculerMoyenne() {
     float num1, num2, num3; 
     float resultat;        
-    printf("Entrez le premier numéro");
+    printf("Entrez 1er nombre");
       scanf("%f", &num1);
 
-    printf("Entrez le deuxième numéro");
+    printf("Entrez 2er nombre");
       scanf("%f", &num2);
 
-    printf("Entrez le troisième numéro");
+    printf("Entrez 1er nombre");
       scanf("%f", &num3);
 
     resultat = (num1 * 2 + num2 * 3 + num3 * 5) / 10.0;
