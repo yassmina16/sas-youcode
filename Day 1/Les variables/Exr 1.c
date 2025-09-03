@@ -24,3 +24,6 @@ int main() {
 afficherInfos();
 return 0;
 }
+
+
+
