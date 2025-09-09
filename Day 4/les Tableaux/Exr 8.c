@@ -2,7 +2,7 @@
 
 void  CopieArray() {
 int n ;
-   printf("Entrez la taille du tableaux : \n"); 
+   printf("Entrez le nembre (maximum 100) :  \n"); 
      scanf("%d", &n);
    int arr[n];  
     for (int i = 0; i < n; i++) { 
