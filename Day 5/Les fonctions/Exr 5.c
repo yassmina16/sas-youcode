@@ -1,21 +1,24 @@
 #include <stdio.h>
 
-void Fact() {
-long long Result = 1;
-int n , i ;
-  printf("Entrez un nembre:");
-  scanf("%d", &n);
-    if (n < 0 ){
-        printf("nombre négatif n'est pas définie\n");
+long long factorielle(int n) {
+    if (n == 0 || n == 1) {
+        return 1;
+    } else {
+        return n * factorielle(n - 1);
     }
-    for (int i = 1; i <= n; ++i) {
-        Result  *= i ;
+}
+void factorielles(){
+    int nbr;
+    printf("entrez nomber positif: ");
+    scanf("%d", &nbr);
+    if (nbr < 0) {
+        printf("nomber pas positif !! \n");
+    } else {
+        printf("le factorielle de %d est %lld .", nbr, factorielle(nbr));
     }
-    printf("Factorial : %lld\n", Result);
 }
 
 int main() {
-Fact();
-return 0;
-
+    factorielles() ;
+    return 0;
 }
