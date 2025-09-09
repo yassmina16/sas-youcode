@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void len() {
+void strlen() {
 int l = 0;
 char texte [100];
     printf("Entrez une chaîne : ");
