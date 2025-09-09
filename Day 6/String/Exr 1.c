@@ -3,7 +3,7 @@
 void afficher() {
 char texte [100];
     printf("Entrez une chaîne : ");
-        gets(texte);
+        fgets(texte ,sizeof(texte) ,stdin);
     printf(" %s\n", texte);
 }
 
