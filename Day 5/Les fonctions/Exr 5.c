@@ -19,6 +19,6 @@ void factorielles(){
 }
 
 int main() {
-    factorielles() ;
-    return 0;
+factorielles() ;
+return 0;
 }
