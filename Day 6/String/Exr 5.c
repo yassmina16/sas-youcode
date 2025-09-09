@@ -3,7 +3,7 @@
 void inverser() {
     char str[100];
     printf("Entrez la chaîne : ");
-    scanf("%s", str);
+    scanf("%s", &str);
     int start = 0;
     int end = 0;
     while (str[end] != '\0') {
