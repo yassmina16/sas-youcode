@@ -14,6 +14,6 @@ void area() {
 }
 
 int main() {
-area();
-return 0;
+area();   
+return 0; 
 }
