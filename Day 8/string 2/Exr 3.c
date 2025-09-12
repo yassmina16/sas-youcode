@@ -15,8 +15,8 @@ int count = 0;
 }
 
 int main(){
-    count();
-    return 0;
+count();
+return 0;
 }
 
 
