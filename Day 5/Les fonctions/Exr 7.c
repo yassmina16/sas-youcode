@@ -1,26 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<string.h>
 
-void inverser() {
-    char str[100];
-    printf("Entrez la chaîne : ");
-    scanf("%s", str);
-    int start = 0;
-    int end = 0;
-    while (str[end] != '\0') {
-        end++;
-    }
-    end--;
-    while (start < end) {
-        char temp = str[start];
-        str[start] = str[end];
-        str[end] = temp;
-        start++;
-        end--;
-    }
-    printf("%s\n", str);
-}
+void rev(){
+char arr[50];
+    printf("entrer la chaine : ");
+    fgets(arr , sizeof(arr) , stdin);
+    int len = strlen(arr);
+    for (int i = len-1 ; i >=0 ; i--){
 
-int main() {
-inverser();
-return 0;
+        printf("%c",arr[i]);
+
+        }   
+    }
+ 
+int main(){
+    rev();
+    return 0;
 }
