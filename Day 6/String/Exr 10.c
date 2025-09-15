@@ -11,7 +11,7 @@ char str2[100];
     fgets(str2 , sizeof(str2) , stdin);
 
     char *resultat = strstr(str , str2);
-    if(resultat != NULL) {
+    if(resultat == NULL) {
     printf("not found");
     }else{
     printf("found");
